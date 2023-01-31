@@ -62,7 +62,7 @@ app.post("/", function (req, res) {
     });
   });
 
-//   request.write(jsondata);
+  request.write(jsondata);
   request.end();
 });
 
